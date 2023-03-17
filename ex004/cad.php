@@ -14,9 +14,13 @@
     <main>
         <?php 
            $Nome = $_GET["nome"] ?? "Sem nome";
-           $Sobrenome = $_GET["sobrenome"];
+           $Sobrenome = $_GET["sobrenome"] ?? "Desconhecido";
 
            echo "<p>É um prazer te conhecer <strong>$Nome $Sobrenome</strong>! Este é o meu site!";
+           $Soma =  + 2;
+
+           echo "<p>$Soma</p>";
+
         ?>
         <a href="javascript:history.go(-1)">Voltar para a página anterior</a>
     </main>
