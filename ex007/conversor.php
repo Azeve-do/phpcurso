@@ -15,8 +15,9 @@
         $Valor = $_GET["valor"];
         $Convertendo_para_reais = $_GET
         ["valor"] / 5.28;
+        $Valor_arredondado = number_format($Convertendo_para_reais, 2, '.', '');
 
-        echo "<p>$Valor convertido em dólar: $Convertendo_para_reais</p>";
+        echo "<p>R$$Valor convertido em dólar: U$$Valor_arredondado</p>"
     ?>
 </body>
 </html>
