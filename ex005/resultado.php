@@ -16,5 +16,6 @@
         echo "<p> Seu antecessor é $Antecessor</p>";    
         echo "<p> Seu sucessor é $Sucessor</p>";
     ?>
+    <a href="javascript:history.go(-1)">Voltar para página anterior</a>
 </body>
 </html>
