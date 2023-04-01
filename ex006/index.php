@@ -11,7 +11,7 @@
     <header><h1>Trabalhando com números aleatórios</h1></header>
     <p>Gerando um número aleatório entre 0 e 100...</p>
     <?php 
-        $Número_Aleatório = random_int(0, 100);
+        $Número_Aleatório = mt_rand(0, 100);
         echo "<p>Valor gerado é: $Número_Aleatório</p>";
     ?>
     <a id="gerador" href="javascript:history.go(0)">Gerar Outro</a>
